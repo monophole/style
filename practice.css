@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background: #2da772;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 15%
+}
+.phone a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.social i{
+    color: white;
+    margin-left: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection{
+    display: flex;
+    gap: 40px;
+}
+.item{
+    list-style: none;
+    transition: .3s;
+}
+.item:hover{
+    color: #2da772;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url(./High_resolution_wallpaper_background_ID_77701634724-optimized.jpg) no-repeat center/cover;
+    padding: 120px 15%;
+    color: white;
+}
+.banner p{
+    padding: 24px 0px;
+}
+.btn__contact{
+    padding: 10px 14px;
+    background-color: #2da772;
+    color: white;
+    border: none;
+}
+.btn__read{
+    padding: 10px 14px;
+    border: none;
+}

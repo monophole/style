@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.network i{
+    color: white;
+    margin-right: 15px;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 12px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.logo{
+    color: white;
+    flex: 1;
+}
+.collection{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    transition: 1s;
+}
+.item:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+#search{
+    margin-left: 30px;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background: url(./photo_2023-05-21_18-28-31.jpg) no-repeat center/cover;
+}
+.name{
+    color: white;
+    margin-top: 190px; ;
+    text-align: center;
+}
+.title{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    margin: auto;
+}

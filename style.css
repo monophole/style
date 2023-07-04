@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: red;
+    margin: 30px 0;
+    font-size: normal;
+    font-weight: 900;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.btn{
+    /* short hand */
+    /* top-bottom, right-left */
+    padding: 10px 30px;
+    margin: 30px 80px;
+    border-radius: 0 20px;
+    transition: .3s;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-bottom: 4px solid blueviolet;
+}
+.btn:hover{
+    border-radius: 20px 0;
+    cursor: pointer;
+}
+.btn2{
+    /* top->right->bottom->left */
+    padding: 10px 15px 5px 30px;
+    border-radius: 10px 2px 0px 6px;
+}

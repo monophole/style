@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection{
+    display: flex;
+    gap: 30px;
+}
+.item{
+    list-style: none;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./desktop-wallpaper-best-flowers-full-pics-for-laptop-p-flowers-for-full-screen.jpg) no-repeat center/cover;
+    
+}
+.title{
+    color: white;
+    width: 250px;
+    margin: auto;
+    border: 1px solid white;
+    padding: 10px;
+}
+.banner p{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 14px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 545px ;
+}
+.btn_{
+    padding: 10px 14px;
+    background-color: rgb(69, 187, 157);
+    color: white;
+    border: none;
+}
+
+ 
+  
